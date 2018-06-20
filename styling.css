@@ -6,34 +6,21 @@ a {
   text-decoration: none;
   color: #187133;
 }
+
 /* Heading nav */
+
 .header {
   position: relative;
   display: inline;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Helpful */
-.center {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
   padding: 20px;
+  font-size: 25px;
   padding-left: 20px;
 }
+
+.header a {
+  
+}
+/* Helpful */
