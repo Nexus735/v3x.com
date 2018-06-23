@@ -2,12 +2,23 @@ body
 {
   margin: 0;
   padding: 0;
+  background: url(./fortnite-1920x1080-wallpaper-abstrakt-2.jpg) no-repeat;
+  background-size: cover;
+}
+.box
+{
+  width: 452px;
+  height: 600px;
+  text-align: center;
+  background: rgba(192,192,192,0.3);
+  margin: auto;
+  padding: 150px;
 }
 h1
 {
-  position: relative;
-  top: 110;
-  left:965;
+  position: absolute;
+  top: 10%;
+  left: 50%;
   transform: translate(-50%,-50%);
   margin: 0;
   padding: 0;

@@ -2,12 +2,23 @@ body
 {
   margin: 0;
   padding: 0;
+  background: url(./BGreal.jpg) no-repeat;
+  background-size: cover;
+}
+.box
+{
+  width: 452px;
+  height: 600px;
+  text-align: center;
+  background: rgba(192,192,192,0.3);
+  margin: auto;
+  padding: 150px;
 }
 h1
 {
-  position: relative;
-  top: 100;
-  left:965;
+  position: absolute;
+  top: 10%;
+  left: 50%;
   transform: translate(-50%,-50%);
   margin: 0;
   padding: 0;
@@ -68,4 +79,11 @@ h2
 .s-m a:hover > i
 {
   transform: scale(1.6) rotate(25deg);
+}
+iframe
+{
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 20.5%;
 }
