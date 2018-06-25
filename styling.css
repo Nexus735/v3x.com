@@ -11,16 +11,24 @@ a {
 
 .header {
   position: relative;
-  display: inline;
-  margin-left: auto;
-  margin-right: auto;
+  width: 50%;
+  margin: auto;
   text-align: center;
   padding: 20px;
   font-size: 25px;
   padding-left: 20px;
+
 }
 
 .header a {
+  float: left;
+}
+
+.buttonis {
+  display: inline-block;
+  margin: 50px;
+  margin-top: 10px;
+  margin-bottom: 0px;
   
 }
 /* Helpful */
