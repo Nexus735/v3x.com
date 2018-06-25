@@ -37,7 +37,7 @@ a {
 
 /* Art stuff for opening up */
 .art {
-  padding: 10px;
+  padding: 1px;
   padding-left: 0px;
   padding-bottom: 430px;
   width: 100%;
@@ -60,14 +60,18 @@ a {
 
 #header {
   margin-top: 350px;
-  border: 20px solid rgb(42, 42, 42);
-  background-color: rgb(42, 42, 42);
-  color: #FAFAFA;
+  font-family: coalition;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 0.25px;
+  -webkit-text-fill-color: #046224;
+  color: rgb(0, 0, 0);
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 1%;
-  font-size: 50px;
+  font-size: 8em;
 }
 
 /* Helpful */
