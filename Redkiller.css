@@ -7,7 +7,7 @@ body
 }
 .box
 {
-  width: 452px;
+  width: 465px;
   height: 700px;
   text-align: center;
   background: rgba(192,192,192,0.3);
@@ -18,7 +18,7 @@ h1
 {
   position: absolute;
   top: 10%;
-  left: 50%;
+  left: 50.1%;
   transform: translate(-50%,-50%);
   margin: 0;
   padding: 0;
@@ -70,7 +70,7 @@ h2
 }
 .s-m a:hover
 {
-  background: #008BFF;
+  background: #8c000b;
 }
 .s-m a i
 {
