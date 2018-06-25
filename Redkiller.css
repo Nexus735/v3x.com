@@ -7,11 +7,7 @@ body
 }
 .box
 {
-<<<<<<< HEAD
   width: 452px;
-=======
-  width: 465px;
->>>>>>> b07e5d649a2de34b968a1c652c5370cef6877691
   height: 700px;
   text-align: center;
   background: rgba(192,192,192,0.3);
