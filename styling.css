@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  background-color: rgb(249, 249, 249)
 }
 
 a {
@@ -11,16 +12,65 @@ a {
 
 .header {
   position: relative;
-  display: inline;
-  margin-left: auto;
-  margin-right: auto;
+  width: 95%;
+  margin: auto;
   text-align: center;
   padding: 20px;
   font-size: 25px;
   padding-left: 20px;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+
 }
 
 .header a {
-  
+  float: left;
 }
+
+.buttonis {
+  display: inline-block;
+  margin: 50px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+
+}
+
+/* Art stuff for opening up */
+.art {
+  padding: 10px;
+  padding-left: 0px;
+  padding-bottom: 430px;
+  width: 100%;
+  text-align: center;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/60/H1z1_king_of_the_kill_5k-HD.jpg");
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.head {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+#header {
+  margin-top: 350px;
+  border: 20px solid rgb(42, 42, 42);
+  background-color: rgb(42, 42, 42);
+  color: #FAFAFA;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1%;
+  font-size: 50px;
+}
+
 /* Helpful */
+::-webkit-scrollbar {
+  display: none;
+}
